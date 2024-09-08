@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Kegiatan</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+           position: relative ;
+           background-color: black;
+           justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; background-color: rgb(175, 171, 171);">
+                    <img src="licensed-image.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mlilwane</h5>
+                        <p class="card-text">Mlilwane adalah kawasan lindung tertua di Eswatini, yang dimiliki dan dikelola oleh lembaga nirlaba.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carouselModal">
+                            Selengkapnya
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; background-color: rgb(175, 171, 171);">
+                    <img src="swazi-cultural-village.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Swazi Cultural Village</h5>
+                        <p class="card-text">Sebuah desa budaya yang terletak di Eswatini (Swaziland). Desa ini menawarkan pengalaman budaya yang unik dan otentik, memperkenalkan pengunjung pada tradisi dan adat istiadat Swazi.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carouselModal2">
+                            Selengkapnya
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; background-color: rgb(175, 171, 171);">
+                    <img src="licensed-image (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hlane Royal National Park</h5>
+                        <p class="card-text">Taman Nasional Kerajaan Hlane adalah taman nasional di Eswatini, kira-kira 67 km timur laut Manzini di sepanjang jalan MR3.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carouselModal3">
+                            Selengkapnya
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- modal + coursel -->
+    <div class="modal fade" id="carouselModal" tabindex="-1" aria-labelledby="carouselModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carouselModalLabel">MILWANE</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="milwane1.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="milwane2.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="milwane3.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="carouselModal2" tabindex="-1" aria-labelledby="carouselModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carouselModalLabel">Swazi Cultural Village</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="cultural1.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="cultural2.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="cultural3.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="carouselModal3" tabindex="-1" aria-labelledby="carouselModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carouselModalLabel">Hlane Royal National Park</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="hlane1.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="hlane2.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="hlane3.jpeg" class="d-block w-100" alt="HD Image">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <br>
+        <div class="container mt-5">
+            <h1 class="text-center mb-4;">eSwatini</h1>
+          
+            <p class="text-center mb-4">Nikmati liburan tak terlupakan bersama kami!</p>
+            <div class="text-center">
+                <p class="mb-0">© 2024 hfhpshnfh</p>
+                <p class="mb-0">Rekreasi Seru. All Rights Reserved.</p>
+            </div>
+          </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
