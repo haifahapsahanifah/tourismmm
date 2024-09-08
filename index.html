@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>TOURISM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+           font-family: 'Times New Roman', Times, serif;
+           position: relative ;
+           background-color: black;
+           justify-content: center;
+            }
+      main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            }
+            .card-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+            }
+            .card {
+            margin: 10px;
+            }
+            * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+              }
+
+              .hdr {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  padding: 20px;
+                  background-color: #fff; 
+                  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+              }
+
+              .liga {
+                  height: 20px;
+                  width: 30px;
+              }
+
+              .nvbr {
+                  display: flex;
+                  gap: 20px;
+              }
+
+              .nvbr a {
+                  color: #333; 
+                  text-decoration: none;
+                  position: relative;
+                  padding: 10px;
+                  font-size: 16px;
+              }
+              header {
+                  background-color: black;
+                  color: #f8f1f1;
+                  padding: 40px;
+                  text-align: center;
+                  }
+                  .nvbr a:hover, .nvbr a.active {
+                    color: #a5ddeb; 
+                    border-radius: 4px;
+                }
+
+                .nvbr a i {
+                    margin-left: 5px;
+                    color: #6ccce9; 
+                }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="hdr">
+        <img src="Flag_of_Eswatini.svg" alt="Logo" class="liga">
+        <div class="nvbr">
+            <a href="index.html">Beranda<i class="fas fa-chevron-down"></i></a>
+            <a href="index2.html">Kegiatan<i class="fas fa-chevron-down"></i></a>
+            <a href="index3.html">Galery <i class="fas fa-chevron-down"></i></a>
+            <a href="index5.html">Tentang Kami<i class="fas fa-chevron-down"></i></a>
+            <a href="index4.html">Contact <i class="fas fa-chevron-down"></i></a>
+        </div>
+    </div>
+</header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div><br>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="licensed-image.jpg" alt="HD Image" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG_20181207_094241_039.jpg" alt="HD Image" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="2017-01-07.jpg" alt="HD Image" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <div class="container mt-5 text-light">
+    <h1 class="text-center mb-4">Nikmati Liburan Seru!</h1>
+    <p class="text-center mb-4" >Temukan berbagai kegiatan rekreasi yang menyenangkan untuk seluruh keluarga.</p>
+    <div class="text-center" >
+        <a href="#" class="btn btn-primary btn-lg">Lihat Kegiatan</a>
+    </div>
+</div>
+<br>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+    <li class="breadcrumb-item"><a href="#">Kegiatan</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Populer</li>
+  </ol>
+</nav>
+<br>
+<div class="alert alert-dark" role="alert">
+  <b>Promo Spesial!</b> Dapatkan diskon 50% untuk semua paket rekreasi bulan ini. <b><u>Pesan Sekarang!</u></b>
+</div>
+<br>
+<div class="card-container">
+  <div class="card" style="width: 18rem; background-color: rgb(175, 171, 171);">
+    <img src="licensed-image.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Mlilwane</h5>
+      <p class="card-text">Mlilwane adalah kawasan lindung tertua di Eswatini, yang dimiliki dan dikelola oleh lembaga nirlaba.</p>
+      <a href="#" class="btn btn-primary">Selengkapnya</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem; background-color: rgb(175, 171, 171);">
+    <img src="swazi-cultural-village.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Swazi Cultural Village</h5>
+      <p class="card-text">Sebuah desa budaya yang terletak di Eswatini (Swaziland). Desa ini menawarkan pengalaman budaya yang unik dan otentik, memperkenalkan pengunjung pada tradisi dan adat istiadat Swazi.</p>
+      <a href="#" class="btn btn-primary">Selengkapnya</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem; background-color: rgb(175, 171, 171);">
+    <img src="licensed-image (1).jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Hlane Royal National Park</h5>
+      <p class="card-text">Taman Nasional Kerajaan Hlane adalah taman nasional di Eswatini, kira-kira 67 km timur laut Manzini di sepanjang jalan MR3.</p>
+      <a href="#" class="btn btn-primary">Selengkapnya</a>
+    </div>
+  </div>
+  <br>
+</div>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+<br>
+<div class="container mt-5">
+  <h1 class="text-center mb-4;">eSwatini</h1>
+
+  <p class="text-center mb-4">Nikmati liburan tak terlupakan bersama kami!</p>
+
+  <div class="row justify-content-center mb-4">
+      <div class="col-md-6 text-center">
+          <a href="https://haifahapsahanifah@gmail.com" class="btn btn-primary btn-lg">Hubungi Kami</a>
+      </div>
+  </div>
+
+  <div class="text-center">
+      <p class="mb-0">© 2024 hfhpshnfh</p>
+      <p class="mb-0">Rekreasi Seru. All Rights Reserved.</p>
+  </div>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
